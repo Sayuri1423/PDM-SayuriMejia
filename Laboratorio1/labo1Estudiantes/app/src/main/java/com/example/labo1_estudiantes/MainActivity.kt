@@ -24,8 +24,6 @@ class MainActivity : ComponentActivity() {
             Estudiante("Sofia", "00656673", "Análisis Numérico"),
             Estudiante("Dimas", "00765325", "Análisis Numérico")
         )
-
-        // 🔥 ESTO TE FALTABA
         val moviles = ciclo01.filter {
             it.asignatura == "Programación de Dispositivos Móviles : "
         }
