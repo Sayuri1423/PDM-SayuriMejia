@@ -110,14 +110,13 @@ fun app() {
                 .border(2.dp, pastelBorde)
         ) {
             LazyColumn {
-                items(userlist) { user ->
+                items(userlist.size) { index ->
                     Text(
-                        text = user,
+                        text = "${index + 1}. ${userlist[index]}",
                         modifier = Modifier.padding(8.dp)
                     )
                 }
             }
-
         }
     }
 }
