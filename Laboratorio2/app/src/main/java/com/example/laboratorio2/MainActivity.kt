@@ -16,6 +16,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import com.example.laboratorio2.ui.theme.Laboratorio2Theme
+import org.w3c.dom.Text
+import android.widget.Button
+import android.inputmethodservice.Keyboard.Row
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
